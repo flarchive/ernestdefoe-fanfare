@@ -2,18 +2,13 @@
 
 > **Read-only archive of released versions of ernestdefoe/fanfare.** Not for installation: use [Packagist](https://packagist.org/packages/ernestdefoe/fanfare) or the [upstream repository](https://github.com/ernestdefoe/fanfare).
 
-**6** versions archived · Latest: [`1.2.1`](https://github.com/flarchive/ernestdefoe-fanfare/tree/archive/v1.2.1) · License: `MIT` · Flarum: `^2.0`
+**0** versions archived · Latest: [`1.3.0`](https://github.com/flarchive/ernestdefoe-fanfare/tree/archive/v1.3.0) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| `1.0.0` | 2026-11-10 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-fanfare/tree/archive/v1.0.0) |
-| `1.0.1` | 2026-11-10 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-fanfare/tree/archive/v1.0.1) |
-| `1.1.0` | 2026-11-23 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-fanfare/tree/archive/v1.1.0) |
-| `1.1.1` | 2026-11-24 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-fanfare/tree/archive/v1.1.1) |
-| `1.2.0` | 2026-11-26 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-fanfare/tree/archive/v1.2.0) |
-| `1.2.1` | 2026-11-28 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-fanfare/tree/archive/v1.2.1) |
+| — | — | — | — |
 
 Catalog entry: [packages/ernestdefoe-fanfare.json](https://github.com/flarchive/archive-index/blob/main/packages/ernestdefoe-fanfare.json)
 
