@@ -1,0 +1,56 @@
+.FanfareAdmin-heading { margin: 26px 0 4px; font-size: 16px; }
+.FanfareOccasions .FanfareAdmin-heading { margin-top: 0; }
+.FanfareOccasions-scroll { overflow-x: auto; }
+.FanfareOccasions-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th { text-align: left; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted-color); padding: 0 8px 6px; }
+  td { padding: 6px 8px; border-top: 1px solid var(--control-bg); vertical-align: middle; }
+  .Form-group { margin: 0; }
+}
+.FanfareOccasions-name { min-width: 14em; }
+.FanfareOccasions-name .Checkbox { margin: 0; }
+.FanfareOccasions-next { white-space: nowrap; color: var(--text-color); }
+.FanfareOccasions-festoon { display: block; font-size: 12px; color: var(--muted-color); margin-left: 52px; }
+.FanfareOccasions-people { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; color: var(--muted-color); }
+
+.FanfareMilestones-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--control-bg);
+
+  > * { min-width: 0; }
+  // What and how many on one line, title and message beneath, every box one height.
+  .Select { flex: 1 1 160px; margin: 0; }
+  .Select-input, .FormControl { height: 36px; }
+  .FanfareMilestones-at { flex: 0 0 110px; }
+  > .FormControl:not(.FanfareMilestones-at) { flex: 1 1 calc(50% - 4px); }
+  > .Button { flex: none; }
+}
+.FanfareMilestones-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+@media (max-width: 767px) {
+  .FanfareMilestones-row > .FormControl:not(.FanfareMilestones-at) { flex-basis: 100%; }
+}
+
+// Customize (an admin's look for an occasion)
+.FanfareOccasions-person, .FanfareOccasions-actions { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 2px; }
+.FanfareOccasions-actions { flex-wrap: nowrap; }
+.FanfareLook-customize { color: var(--control-color); }
+.FanfareLook-mark {
+  display: inline-block; margin-left: 6px; padding: 1px 7px; border-radius: 999px; font-size: 11px; font-weight: 600;
+  color: var(--text-color); background: var(--control-bg); border: 1px solid var(--primary-color); vertical-align: middle;
+}
+.FanfareLookModal .Form-group > .Select, .FanfareLookModal .Form-group > .Select .FormControl { width: 100%; }
+.FanfareLook-emoji { max-width: 8em; margin-top: 8px; font-size: 20px; }
+.FanfareLook-file { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 12px; margin-top: 8px; }
+.FanfareLook-file > * { min-width: 0; }
+.FanfareLook-upload { flex: 1 1 14em; }
+.FanfareLook-upload .helpText { margin-top: 4px; color: var(--muted-color); }
+.FanfareLook-thumb { width: 72px; height: 72px; object-fit: contain; border-radius: 8px; background: var(--control-bg); border: 1px solid var(--control-bg); }
+.FanfareLook-audio { max-width: 100%; height: 36px; }
+.FanfareLook-buttons { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
